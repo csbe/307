@@ -1,0 +1,22 @@
+@main-width: 600px;
+@main-color: red;
+@second-color: green;
+
+.float(@width){
+	float:left;
+	width: @width;
+}
+
+nav{
+	.float(300);
+}
+
+body{
+	ul{
+		margin:0;
+		li{
+			color: @main-color;
+			:hover{color:@second-color;}		
+		}	
+	}
+}
