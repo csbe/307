@@ -18,7 +18,7 @@ $js = '$(document).ready(function(){
 			$(".jumbotron").html(result);
 		},
 	});
-},10000);
+},1000);
 });';
 
 include 'template/bootstrap-justified.php';
