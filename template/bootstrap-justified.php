@@ -22,6 +22,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
 
+
+	<!-- include summernote css/js-->
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
     
     <?php if(isset($js) && $js != null){ ?>  	
     <script type="text/javascript" >
@@ -42,10 +46,10 @@
         <nav>
           <ul class="nav nav-justified">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="http://google.ch">Services</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="manager.php">Manager</a></li>
+            <li><a href="datenbank.php">Datenbankseite</a></li>
+            <li><a href="datenbank.php?page=1">Seite1</a></li>
+            <li><a href="datenbank.php?page=2">Seite2</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
