@@ -1,5 +1,5 @@
 <?php
-phpinfo();
+//phpinfo();
 //http://localhost/bis15/307/datenbank.php?page=2 union select '' as jumbotitle, '' as jumbolead,username as title,password as lead, '' from user;
 
 $project = "BIS15-Datenbank Beispiel";
