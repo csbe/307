@@ -158,7 +158,7 @@
     </div><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>LB2 Modul 307 with Bootstrap Template <a href="http://getbootstrap.com">Bootstrap</a> in &copy; 2016.</p>
+      <p>LB2 Modul 307 with Bootstrap Template <a href="http://getbootstrap.com">Bootstrap</a> in @copy; 2016.</p>
       <p>
         <a href="#">Back to top</a>
       </p>

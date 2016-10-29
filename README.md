@@ -1,4 +1,4 @@
-# 307
+Repository for ük307 ICT - 
 
-Git repository for ICT modul ük307
-several code examples and solutions
+All code examples are done in school class bis15
+The code alone is not useful, you need the explains at school 

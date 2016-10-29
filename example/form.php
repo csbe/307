@@ -14,7 +14,7 @@
  		form = $(this);
  		$.post(form.attr("action"), form.serialize())
  						.done(function (data) {
-				 			form.parent().html(data);	
+				 			form.parent().replace(data);	
 				 			$(".message").dialog();
 				 		});
  		
@@ -22,7 +22,7 @@
  	});
 </script>
 <?php
-	if(isset($_POST['date'])) {
+	if(isset($_POST)) {
 		echo "<div class='message'>Speichern erfolgreich</div>";
 	}
 ?>

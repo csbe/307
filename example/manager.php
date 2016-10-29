@@ -1,4 +1,7 @@
 <?php
+$PROJEKT="test";
+var_DUMP($projekt);
+
 $project = "BIS15-Datenbank Beispiel";
 
 $sqlite = new SQLite3('db/307.db');
